@@ -1,0 +1,38 @@
+body{
+    background:  rgba(247, 215, 154, 0.92); 
+    padding: 120px;
+    margin：120px;
+}
+ header{
+     font-size: 70px; 
+     font-weight: 600; 
+     text-shadow: 5px 5px 4px #8b6545;
+     text-align: left; 
+     color: #ffebc5; 
+}
+ h1{
+     font-size: 35px; 
+     color: #4b2e15;
+     padding: 0cm 3cm;
+     margin：120px;
+}  
+  p{
+　   font-size:3cm; 
+     color: rgb(101, 49, 22);
+     padding: 0cm 3cm;
+     margin：120px;
+}
+   pre{
+　   font-size:3cm; 
+     color: rgb(101, 49, 22);
+     padding: 0cm 3cm;
+     margin：120px;
+}
+  
+ h2{
+     font-size: 28px; 
+     color: #4b2e15;
+     padding: 0cm 3cm;
+     margin：120px;
+}  
+
