@@ -1,38 +1,59 @@
 body{
-    background:  rgba(247, 215, 154, 0.92); 
-    padding: 120px;
-    margin：120px;
+    background:  rgba(245, 214, 156, 0.92); 
+    padding:0 3% 0 3% ;
 }
- header{
+header{
+    
+}
+nav{ 
+    background: rgb(93, 55, 35);
+    font-size: 30px;
+    position: fixed;
+    line-height: 195%;
+    width: 15%;
+    height:60%;
+    padding:1% 2%;
+}   
+a{ 
+    text-align: justify;
+    text-decoration-line: none;
+    color:white;
+}
+a:hover{
+    color:#9ace96;
+    text-decoration-line: underline;
+}
+h1{
      font-size: 70px; 
-     font-weight: 600; 
+     font-weight: 900; 
      text-shadow: 5px 5px 4px #8b6545;
      text-align: left; 
-     color: #ffebc5; 
+     color: #f8f7f4; 
+     padding:1.5cm 3cm;
 }
- h1{
-     font-size: 35px; 
-     color: #4b2e15;
-     padding: 0cm 3cm;
-     margin：120px;
-}  
-  p{
-　   font-size:3cm; 
-     color: rgb(101, 49, 22);
-     padding: 0cm 3cm;
-     margin：120px;
+main{
+    padding: 0 0 0 28%;
 }
-   pre{
-　   font-size:3cm; 
-     color: rgb(101, 49, 22);
-     padding: 0cm 3cm;
-     margin：120px;
-}
-  
  h2{
-     font-size: 28px; 
+     font-size: 30px; 
+     font-weight: 700;
      color: #4b2e15;
-     padding: 0cm 3cm;
+     padding: 0 0 0 0;
      margin：120px;
 }  
+h3{
+     font-size: 25px; 
+     color: #4b2e15;
+     padding: 0 0 0 3%;
+}
+p{
+  font-size: 23px; 
+  color: rgb(101, 49, 22);
+  padding: 0 5% 0 5%;
+}
+img{
+    clear: right;
+}
+
+
 
