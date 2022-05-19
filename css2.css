@@ -1,27 +1,31 @@
 body{
-    background:  rgba(245, 214, 156, 0.92); 
-    padding:0 3% 0 3% ;
-}
-header{
-    
+    background:  rgba(250, 199, 102, 0.44); 
+   
 }
 nav{ 
     background: rgb(93, 55, 35);
     font-size: 30px;
-    position: fixed;
     line-height: 195%;
-    width: 15%;
-    height:60%;
-    padding:1% 2%;
-}   
+    margin:-0.5em;
+    padding-top:0.5em;
+}
 a{ 
-    text-align: justify;
+    text-align: justify-all;
     text-decoration-line: none;
-    color:white;
+    color: white;
+    text-align: justify-all;
+    padding: 0 0 5% 5%;
 }
 a:hover{
     color:#9ace96;
     text-decoration-line: underline;
+  
+}
+header{
+    padding: 5% 5% 3% 5% ;
+}
+main{
+     padding: 0 5% 0 5%
 }
 h1{
      font-size: 70px; 
@@ -29,27 +33,53 @@ h1{
      text-shadow: 5px 5px 4px #8b6545;
      text-align: left; 
      color: #f8f7f4; 
-     padding:1.5cm 3cm;
+    ;
 }
-main{
-    padding: 0 0 0 28%;
+
+.card{
+  position: relative;
+}
+.info{
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.44);
+  top: 0;
+  width: 50%;
+  height: 100%;
+  text-align:left;
+}
+.info p {
+  color: #ffffff;
+  padding: 0 10% 0 5%;
+  line-height: 1.5;
+  letter-spacing: 1.5%;
+  padding:  0 5% 0 10%;
+}
+.info:hover{
+  -webkit-transition: 500ms;
+  opacity: 1;
 }
  h2{
      font-size: 30px; 
      font-weight: 700;
      color: #4b2e15;
      padding: 0 0 0 0;
-     margin：120px;
 }  
 h3{
      font-size: 25px; 
      color: #4b2e15;
-     padding: 0 0 0 3%;
+     ;
+}
+h4{
+    font-size: 80px; 
+    color: #ffffff;
+    padding: 10% 0  0  10%;
 }
 p{
   font-size: 23px; 
   color: rgb(101, 49, 22);
   padding: 0 5% 0 5%;
+  ;
 }
 img{
     clear: right;
