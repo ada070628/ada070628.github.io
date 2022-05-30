@@ -1,7 +1,12 @@
 body{
     background:  rgba(250, 199, 102, 0.44); 
-   
+    background-image: url(ailurophile.png);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: 40%; 
 }
+
 nav{ 
     background: rgb(93, 55, 35);
     font-size: 30px;
@@ -10,70 +15,49 @@ nav{
     padding:0.5em;
 }
 .navbar-nav{
-    padding: 0 5%;
+    padding: 1% 5%;
 }
 .navbar-toggler{
     margin: 0 5%; 
 }
-a{ 
-    text-align: justify-all;
-    text-decoration-line: none;
-    color: white;
-    text-align: justify-all;
-    padding: 0 0 5% 5%;
+.navbar-brand{
+    padding: 0.3% 5%;
 }
-a:hover{
-    color:#9ace96;
-    text-decoration-line: underline;
-  
+.navbar-brand img{
+    padding: 0 5%;
+}
+.home{
+    font-size: 25px;
 }
 header{
     padding: 5% 5% 3% 5% ;
 }
 main{
-     padding: 0 5% 0 5%
+     padding: 5% 10% 0 10% ;
 }
 h1{
      font-size: 70px; 
      font-weight: 900; 
      text-shadow: 5px 5px 4px #8b6545;
      text-align: left; 
-     color: #f8f7f4; 
-    ;
-}
-
-.card{
-  position: relative;
-}
-.info{
-  opacity: 1;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.44);
-  top: 0;
-  height: 100%;
-  text-align:left;
-  min-width: 100%;
-}
-.info p {
-  color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 1.5%;
-  padding:  0 5% 0 10%; 
+     color: #f8f7f4;  
+     white-space:pre-wrap;
 }
 
  h2{
-     font-size: 30px; 
+     font-size: 50px; 
      font-weight: 700;
      color: #4b2e15;
-     padding: 0 0 0 0;
+     padding: 0 5% 3% 0;
 }  
 h3{
      font-size: 25px; 
      color: #4b2e15;
-     ;
+     font-weight: 600;
+    padding: 0 5% 0 0;
 }
 h4{
-    font-size: 80px; 
+    font-size:10px; 
     color: #ffffff;
     padding: 10% 0  0  10%;
 }
@@ -81,15 +65,10 @@ p{
   font-size: 23px; 
   color: rgb(101, 49, 22);
   padding: 0 5% 0 5%;
-  ;
+  white-space:pre-wrap;
+  
 }
-.two card{
-    width:50%;
-    
-}
-#小合唱{
-    justify-content: flex-end;
-}
+
 
 
 
